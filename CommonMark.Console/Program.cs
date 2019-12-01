@@ -156,7 +156,7 @@ namespace CommonMark
 
                         sources.Add(new System.IO.StringReader(sb.ToString()));
                     }
-                    else if (!Console.IsInputRedirected)
+                    else if (!ConsoleEx.IsInputRedirected)
                     {
                         Console.InputEncoding = Encoding.Unicode;
                         Console.OutputEncoding = Encoding.Unicode;

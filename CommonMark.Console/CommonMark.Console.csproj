@@ -2,7 +2,8 @@
 <Project Sdk="MSBuild.Sdk.Extras">
 
   <PropertyGroup>
-    <TargetFrameworks>net45</TargetFrameworks>
+    <!--<TargetFrameworks>net45</TargetFrameworks>-->
+    <TargetFrameworks>net20</TargetFrameworks>
     <OutputType>Exe</OutputType>
   </PropertyGroup>
 
